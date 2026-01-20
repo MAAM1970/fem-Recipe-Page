@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-White: #fff;
+
+  --stone-bg: #f3e6d8ff;
+  --stone-primary: #e4ded8ff;
+  --stone-secondry: #5f574eff;
+  --stone-heading: #302d2cff;
+
+  --brown-heading-primary: #854632ff;
+
+  --rose-heading-secondry: #7b284fff;
+  --rose-bg: #fff5faff;
+
+  --rose-bg-dark: #fdeaf3;
+
+  --border-line-primary: #ddd;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Young Serif", sans-serif;
+  background-color: var(--stone-bg);
+}
+
+.container {
+  max-width: 73.6rem;
+  margin: 12.8rem auto;
+  padding: 4rem;
+  background-color: var(--rose-bg);
+  text-align: center;
+
+  border-radius: 2.4rem;
+}
+
+.hero {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 1.2rem;
+  margin-block-end: 4rem;
+}
+
+.title {
+  color: var(--stone-heading);
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 500;
+
+  margin-block-end: 2.4rem;
+}
+
+.description {
+  color: var(--stone-secondry);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.5;
+
+  margin-block-end: 3.2rem;
+}
+
+.preperation,
+.ingredients {
+  background-color: var(--rose-bg-dark);
+  text-align: left;
+
+  padding: 2.4rem;
+
+  margin-block-end: 3.2rem;
+}
+
+.ingredients,
+.instructions {
+  background-color: var(--rose-bg);
+  padding: 2.4rem 2.4rem 2.4rem 0;
+
+  margin-block-end: 1.6rem;
+
+  border-bottom: 2px solid var(--border-line-primary);
+}
+
+.preperation-heading {
+  color: var(--rose-heading-secondry);
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+
+  margin-block-end: 1.6rem;
+}
+
+.ingredients-heading,
+.instructions-heading {
+  color: var(--brown-heading-primary);
+  font-family: inherit;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: left;
+  letter-spacing: 0.75px;
+  margin-block-end: 1.6rem;
+}
+
+.steps {
+  margin-left: 4.8rem;
+  color: var(--rose-heading-secondry);
+  line-height: 2;
+}
+
+.ings,
+.inst-list {
+  margin-left: 1.6rem;
+  color: var(--rose-heading-secondry);
+  line-height: 2;
+}
+
+.step span,
+.inst span {
+  color: var(--stone-secondry);
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+}
+
+.step,
+.ing,
+.inst {
+  color: var(--stone-secondry);
+  padding-left: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 1.2;
+  text-align: left;
+}
+
+.step::marker,
+.ing::marker {
+  color: var(--rose-heading-secondry);
+}
+
+.inst::marker {
+  color: var(--rose-heading-secondry);
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+}
+
+table {
+  width: 100%;
+}
+
+.nutrition-row:last-child td {
+  margin-block-end: 5rem;
+  border-bottom: none;
+}
+
+.nutrition,
+.nutrition-amount {
+  color: var(--stone-secondry);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 2.4rem;
+  padding-right: 20rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition-amount {
+  color: var(--rose-heading-secondry);
+  font-weight: 600;
+  text-align: left;
+}
