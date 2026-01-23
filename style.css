@@ -5,16 +5,16 @@
 }
 
 :root {
-  --color-White: #fff;
+  --color-white: #fff;
 
   --stone-bg: #f3e6d8ff;
   --stone-primary: #e4ded8ff;
-  --stone-secondry: #5f574eff;
+  --stone-secondary: #5f574eff;
   --stone-heading: #302d2cff;
 
   --brown-heading-primary: #854632ff;
 
-  --rose-heading-secondry: #7b284fff;
+  --rose-heading-secondary: #7b284fff;
   --rose-bg: #fff7fb;
 
   --rose-bg-dark: #fdeaf3;
@@ -55,7 +55,7 @@ body {
 
 .header-box {
   width: 100%;
-  padding-top: -0.4rem;
+  margin-top: -0.4rem;
   margin-block-end: 3.2rem;
 }
 
@@ -76,12 +76,11 @@ body {
   line-height: 1.5;
   font-weight: 300;
   text-align: left;
-  line-height: 1.5;
 
   margin-block-end: 3.2rem;
 }
 
-.preperation {
+.preparation {
   background-color: var(--rose-bg-dark);
   text-align: left;
 
@@ -90,7 +89,7 @@ body {
   margin-block-end: 3.2rem;
 }
 
-.preperation-heading {
+.preparation-heading {
   color: var(--rose-heading-secondry);
   font-size: 2rem;
   line-height: 1;
@@ -122,7 +121,7 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   font-family: "Outfit", sans-serif;
-  letter-spacing: 1.2;
+
   text-align: left;
   margin-left: -0.6rem;
 }
@@ -137,7 +136,6 @@ body {
 .instructions {
   background-color: var(--rose-bg);
   text-align: left;
-  padding: 2.4rem;
   padding: 0;
 
   margin-block-end: 2.4rem;
@@ -150,7 +148,7 @@ body {
 
 hr {
   border: none;
-  height: 1px;
+  height: 0.1rem;
   background-color: var(--border-line-primary);
 }
 
@@ -195,8 +193,6 @@ hr {
   font-size: 1.6rem;
   font-weight: 300;
   font-family: "Outfit", sans-serif;
-
-  text-align: left;
 }
 
 .ing::marker,
