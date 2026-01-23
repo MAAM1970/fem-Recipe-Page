@@ -112,7 +112,7 @@ body {
 .ingredients,
 .instructions {
   background-color: var(--rose-bg);
-  padding: 0;
+  padding-top: -0.6rem;
 
   margin-block-end: 3.2rem;
 }
