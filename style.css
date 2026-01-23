@@ -142,10 +142,11 @@ hr {
 
 .ings,
 .inst-list {
-  margin-left: 0.8rem;
+  margin-left: -1.6rem;
   margin-top: -1rem;
   color: var(--rose-heading-secondry);
   line-height: 1.5;
+  list-style-position: inside;
 }
 
 .step span,
@@ -177,6 +178,7 @@ hr {
 .ing::marker {
   color: var(--rose-heading-secondry);
   margin-left: 0.8rem;
+  left: 1rem;
 }
 
 .inst::marker {
