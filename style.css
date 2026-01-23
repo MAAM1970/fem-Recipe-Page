@@ -155,7 +155,8 @@ hr {
 }
 
 .ingredients-heading,
-.instructions-heading {
+.instructions-heading,
+.nutritions-heading {
   color: var(--brown-heading-primary);
   font-family: inherit;
   font-size: 2.8rem;
@@ -209,7 +210,15 @@ hr {
 }
 
 .nutrition-description {
-  margin-bottom: 2.4rem;
+  color: var(--stone-secondry);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.5;
+
+  margin-block-end: 2.4rem;
 }
 
 table {
