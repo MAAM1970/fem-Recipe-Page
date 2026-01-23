@@ -155,8 +155,7 @@ hr {
 }
 
 .ingredients-heading,
-.instructions-heading,
-.nutritions-heading {
+.instructions-heading {
   color: var(--brown-heading-primary);
   font-family: inherit;
   font-size: 2.8rem;
@@ -164,6 +163,10 @@ hr {
   text-align: left;
   padding-top: -1.2rem;
   margin-block-end: 2.8rem;
+}
+
+.nutritions-heading {
+  margin-bottom: 2.4rem;
 }
 /* ======================================================= */
 .ings,
@@ -205,6 +208,10 @@ hr {
   font-family: "Outfit", sans-serif;
 }
 
+.nutrition-description {
+  margin-bottom: 2.4rem;
+}
+
 table {
   width: 100%;
 }
@@ -223,7 +230,7 @@ table {
   text-align: left;
   padding-left: 2.4rem;
   padding-right: 20rem;
-  padding-bottom: 1.5rem;
+  /* padding-bottom: 1.5rem; */
   padding-top: 1.5rem;
   border-bottom: 1px solid #ddd;
 }
