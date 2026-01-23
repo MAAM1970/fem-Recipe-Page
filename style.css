@@ -136,14 +136,14 @@ hr {
   font-size: 2.8rem;
   font-weight: 500;
   text-align: left;
-  padding-top: -0.8rem;
+  padding-top: -1.2rem;
   margin-block-end: 2.4rem;
 }
 
 .ings,
 .inst-list {
   margin-left: 0.8rem;
-  margin-top: -0.8rem;
+  margin-top: -1rem;
   color: var(--rose-heading-secondry);
   line-height: 1.5;
 }
