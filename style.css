@@ -143,7 +143,7 @@ hr {
 .ings,
 .inst-list {
   margin-left: 0.8rem;
-  margin-bottom: 0.8rem;
+  margin-top: -0.8rem;
   color: var(--rose-heading-secondry);
   line-height: 1.5;
 }
