@@ -81,8 +81,7 @@ body {
   margin-block-end: 3.2rem;
 }
 
-.preperation,
-.ingredients {
+.preperation {
   background-color: var(--rose-bg-dark);
   text-align: left;
 
@@ -109,9 +108,36 @@ body {
   line-height: 1.5;
 }
 
+.step span {
+  color: var(--stone-secondry);
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+}
+
+.step {
+  color: var(--stone-secondry);
+  padding-left: 1.6rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 1.2;
+  text-align: left;
+  margin-left: -0.6rem;
+}
+
+.step::marker {
+  color: var(--rose-heading-secondry);
+  margin-left: 0.8rem;
+  left: 1rem;
+}
+
 .ingredients,
 .instructions {
   background-color: var(--rose-bg);
+  text-align: left;
+  padding: 2.4rem;
   padding: 0;
 
   margin-block-end: 3.2rem;
@@ -139,50 +165,42 @@ hr {
   padding-top: -1.2rem;
   margin-block-end: 2.4rem;
 }
-
+/* ======================================================= */
 .ings,
 .inst-list {
   margin-left: -1.6rem;
   margin-top: -1rem;
   color: var(--rose-heading-secondry);
   line-height: 1.5;
-  list-style-position: inside;
+  padding-left: 3.2rem;
 }
 
-.step span,
 .inst span {
   color: var(--stone-secondry);
   font-size: 1.6rem;
   font-weight: 700;
   font-family: "Outfit", sans-serif;
+  margin-left: 1.2rem;
 }
 
-.step,
 .ing,
 .inst {
   color: var(--stone-secondry);
-  padding-left: 1.6rem;
+
   padding-bottom: 0.8rem;
   font-size: 1.6rem;
   font-weight: 300;
   font-family: "Outfit", sans-serif;
-  letter-spacing: 1.2;
+
   text-align: left;
 }
 
-.step {
-  margin-left: -0.6rem;
-}
-
-.step::marker,
-.ing::marker {
+.ing::marker,
+.inst::marker {
   color: var(--rose-heading-secondry);
   margin-left: 0.8rem;
   left: 1rem;
-}
 
-.inst::marker {
-  color: var(--rose-heading-secondry);
   font-weight: 600;
   font-family: "Outfit", sans-serif;
 }
