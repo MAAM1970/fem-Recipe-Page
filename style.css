@@ -90,7 +90,7 @@ body {
 }
 
 .preparation-heading {
-  color: var(--rose-heading-secondry);
+  color: var(--rose-heading-secondary);
   font-size: 2rem;
   line-height: 1;
   font-weight: 500;
@@ -103,15 +103,8 @@ body {
 
 .steps {
   margin-left: 4.8rem;
-  color: var(--rose-heading-secondry);
+  color: var(--stone-secondary);
   line-height: 1.5;
-}
-
-.step span {
-  color: var(--stone-secondry);
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: "Outfit", sans-serif;
 }
 
 .step {
@@ -127,7 +120,7 @@ body {
 }
 
 .step::marker {
-  color: var(--rose-heading-secondry);
+  color: var(--rose-heading-secondary);
   margin-left: 0.8rem;
   left: 1rem;
 }
@@ -177,18 +170,15 @@ hr {
   padding-left: 3.2rem;
 }
 
-.inst span {
-  color: var(--stone-secondry);
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: "Outfit", sans-serif;
-  margin-left: 1.2rem;
+strong {
+  font-weight: 600;
+  color: var(--stone-secondary);
 }
 
 .ing,
 .inst {
   color: var(--stone-secondry);
-
+  padding-left: 1.2rem;
   padding-bottom: 0.8rem;
   font-size: 1.6rem;
   font-weight: 300;
@@ -197,7 +187,7 @@ hr {
 
 .ing::marker,
 .inst::marker {
-  color: var(--rose-heading-secondry);
+  color: var(--rose-heading-secondary);
   margin-left: 0.8rem;
   left: 1rem;
 
@@ -228,7 +218,7 @@ table {
 
 .nutrition,
 .nutrition-amount {
-  color: var(--stone-secondry);
+  color: var(--stone-secondary);
   font-family: "Outfit", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
@@ -241,7 +231,7 @@ table {
 }
 
 .nutrition-amount {
-  color: var(--rose-heading-secondry);
+  color: var(--rose-heading-secondary);
   font-weight: 600;
   text-align: left;
 }
